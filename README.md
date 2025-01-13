@@ -18,7 +18,7 @@ An Ingress Controller routes traffic to appropriate services in the cluster. Pre
 
 Docker AWS CLI kubectl eksctl Deployment Steps Clone the Repository:
 
-bash Copy code git clone https://github.com/your-repo-name.git cd your-repo-name Build Docker Images:
+bash Copy code git clone https://github.com/DHIRAJ44/3-tier-devops cd your-repo-name Build Docker Images
 
 Frontend: bash Copy code docker build -t your-frontend-image . Backend: bash Copy code docker build -t your-backend-image . Push Images to AWS ECR:
 
